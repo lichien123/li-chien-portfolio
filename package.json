@@ -26,6 +26,9 @@
     "postinstall": "npm run webpack",
     "webpack": "webpack"
   },
+  "engines": {
+    "node": "20.9.0"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
