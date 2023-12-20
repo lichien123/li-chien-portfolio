@@ -1,0 +1,8 @@
+.socials {
+    display: flex;
+    padding: 0;
+}
+
+.socials-logo {
+    height: 5vmin;
+}
