@@ -1,5 +1,5 @@
 import './Home.css';
-import profPic from '../../images/prof-pic.png';
+// import profPic from '../../images/prof-pic.png';
 
 import { connect } from "react-redux";
 
@@ -9,7 +9,7 @@ const Home = ({ user, setName }) => {
             <div className='title'>{user.name}</div>
             <div className='subtitle'>Front-End Web Developer</div>
             <button onClick={() => setName("Chriszyca Soth")}>change name</button>
-            <img src={profPic} className="prof-pic center-content" alt="logo" />
+            {/* <img src={profPic} className="prof-pic center-content" alt="logo" /> */}
         </div>
     );
 };

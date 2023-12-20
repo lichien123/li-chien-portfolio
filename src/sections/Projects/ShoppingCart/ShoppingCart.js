@@ -1,5 +1,5 @@
 import './ShoppingCart.css';
-import shoppingCart from '../../../images/shopping-cart.png';
+// import shoppingCart from '../../../images/shopping-cart.png';
 
 const ShoppingCart = () => {
     return (

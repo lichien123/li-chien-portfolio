@@ -1,5 +1,5 @@
 import './SearchFilters.css';
-import searchFilters from '../../../images/search-filters.png';
+// import searchFilters from '../../../images/search-filters.png';
 
 const SearchFilters = () => {
     return (

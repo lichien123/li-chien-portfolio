@@ -1,12 +1,12 @@
 import './App.css';
 
-import Menu from './Menu.js';
+// import Menu from './Menu.js';
 // import Socials from './sidebars/Socials.js';
 
 import Home from './sections/Home/Home.js';
 import About from './sections/About/About.js';
 import Projects from './sections/Projects/Projects.js';
-import Skills from './sections/Skills/Skills.js';
+// import Skills from './sections/Skills/Skills.js';
 import Contact from './sections/Contact/Contact.js';
 
 
@@ -24,7 +24,7 @@ function App() {
           <Home/>
           <About/>
           <Projects/>
-          <Skills/>
+          {/* <Skills/> */}
           <Contact/>
         </div>
         {/* <div className='right-column'>

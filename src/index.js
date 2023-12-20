@@ -8,14 +8,14 @@ import { createStore, combineReducers, applyMiddleware } from "redux";
 import logger from "redux-logger";
 import { Provider } from "react-redux";
 
-const initialMathState = {
-  result: 1,
-  lastValues: []
-};
+// const initialMathState = {
+//   result: 1,
+//   lastValues: []
+// };
 
-const initialUserState = {
-  age: 27
-};
+// const initialUserState = {
+//   age: 27
+// };
 
 const mathReducer = (state = {
   result: 1,
@@ -35,7 +35,8 @@ const mathReducer = (state = {
         result: state.result - action.payload,
         lastValues: [...state.lastValues, action.payload]
       };
-      break;
+    break;
+    default: console.log('no appropriate action found');
   };
   return state;
 };
@@ -56,15 +57,16 @@ const userReducer = (state = {
         ...state,
         age: action.payload
       };
-      break;
+    break;
+    default: console.log('no appropriate action found');
   };
   return state;
 };
 
-const myLogger = (store) => (next) => (action) => {
-  console.log("Logged Action: ", action);
-  next(action);
-};
+// const myLogger = (store) => (next) => (action) => {
+//   console.log("Logged Action: ", action);
+//   next(action);
+// };
 
 const store = createStore(
   combineReducers({

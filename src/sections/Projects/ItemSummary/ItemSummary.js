@@ -1,5 +1,5 @@
 import './ItemSummary.css';
-import itemSummary from '../../../images/item-summary.png';
+// import itemSummary from '../../../images/item-summary.png';
 
 const ItemSummary = () => {
     return (
