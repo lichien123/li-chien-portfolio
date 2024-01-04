@@ -1,19 +1,25 @@
 import './Socials.css';
 
-// import LinkedInLogo from '../images/linkedin-white.svg';
+import GitHubLogo from '../images/github-orange.svg';
+import LinkedInLogo from '../images/linkedin-orange.svg';
+import InstagramLogo from '../images/instagram-orange.svg';
 
 const Socials = () => {
     return (
         <ul className="socials">
-          <li>
-            <a href='https://www.linkedin.com/in/li-chien-163617b1' target='_blank' rel="noreferrer">
-              {/* <img src={LinkedInLogo} className='socials-logo'/> */}
-              <i class="fa-brands fa-linkedin fa-beat" style={{"color": "#ffffff"}}></i>
+          <li className='social-logo'>
+            <a href='https://github.com/lichien123' target='_blank' rel="noreferrer">
+              <img src={GitHubLogo}/>
             </a>
           </li>
-          <li>
+          <li className='social-logo'>
             <a href='https://www.linkedin.com/in/li-chien-163617b1' target='_blank' rel="noreferrer">
-              {/* <img src={LinkedInLogo} className='socials-logo'/> */}
+              <img src={LinkedInLogo}/>
+            </a>
+          </li>
+          <li className='social-logo'>
+            <a href='https://www.instagram.com/munchiibruh' target='_blank' rel="noreferrer">
+              <img src={InstagramLogo}/>
             </a>
           </li>
         </ul>

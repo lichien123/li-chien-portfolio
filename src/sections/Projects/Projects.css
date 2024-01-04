@@ -1,6 +1,50 @@
 .projects {
+    text-align: left;
+    padding: 20px 32px;
+}
+
+.projects .main-title {
+    margin-top: 56px;
+    margin-bottom: 28px;
+}
+
+.projects .subtitle {
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.projects ul {
+    padding-left: 0;
     display: flex;
-    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projects li {
+    padding: 4px 12px;
+    background-color: #121E27;
+    color: white;
+    margin-right: 4px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.projects .description {
+    margin-bottom: 28px;
+}
+
+button {
+    padding: 16px 40px;
+    background-color: #FF715B;
+    border: 2px solid #121E27;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    filter: drop-shadow(10px 10px 4px rgb(18, 30, 39));
+    margin-bottom: 96px;
 }
 
 .project {

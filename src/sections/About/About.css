@@ -1,2 +1,46 @@
 .about {
+    padding: 20px 32px;
+}
+
+.about .title {
+    margin-top: 56px;
+    margin-bottom: 28px;
+}
+
+.about .bio-pic {
+    height: 80%;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 28px;
+}
+
+.about ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about li {
+    padding: 4px 12px;
+    background-color: #121E27;
+    color: white;
+    margin-right: 4px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.about .subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 56px;
+    margin-bottom: 28px;
+}
+
+.about .description {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 1.75rem;
 }
