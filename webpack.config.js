@@ -26,6 +26,10 @@ module.exports = {
             {
                 test: /\.svg$/i,
                 use: ['react-svg-loader'],
+            },
+            {
+                test: /\.jpeg$/i,
+                use: ['file-loader'],
             }
         ]
     },
