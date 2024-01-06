@@ -64,6 +64,11 @@ title {
   text-align: left;
 }
 
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #FF715B;
+}
+
 .description {
   font-size: 20px;
   text-align: left;

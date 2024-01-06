@@ -21,6 +21,12 @@ const Menu = () => {
             </div>
           )
         }
+        <div className='static-menu'>
+          <div className='static-menu-item'>Home</div>
+          <div className='static-menu-item'>About</div>
+          <div className='static-menu-item'>Projects</div>
+          <div className='static-menu-item'>Contact</div>
+        </div>
       </div>
     )
 };

@@ -7,9 +7,9 @@ const Projects = () => {
     return (
         <div className="projects">
 
-            <div className='main-title title black'>Projects</div>
+            <div className='main-title title black underline'>Projects</div>
             <div className='subtitle black'>Junior Frontend Developer/<br/>T. Rowe Price</div>
-            <div className='title black'>New Account Setup</div>
+            <div className='project-title black'>New Account Setup</div>
             <ul className='tags'>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -27,7 +27,7 @@ const Projects = () => {
             <button>View Project</button>
 
             <div className='subtitle black'>Junior Frontend Developer/<br/>T. Rowe Price</div>
-            <div className='title black'>Account Access</div>
+            <div className='project-title black'>Account Access</div>
             <ul className='tags'>
                 <li>HTML</li>
                 <li>CSS</li>

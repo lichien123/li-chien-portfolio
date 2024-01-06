@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <div className='footer'>
           <div className='section'>
-            <div className='name'>Li Chien</div>
-            <div className='copyright'>Built and designed by Li Chien</div>
+            <div className='author'>Li Chien</div>
+            <div className='copyright'>Built by Li Chien</div>
           </div>
           <div className='section'>
             <div className='subtitle'>Links</div>

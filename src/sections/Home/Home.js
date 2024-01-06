@@ -1,7 +1,6 @@
 import Menu from '../../Menu';
 import Socials from '../../sidebars/Socials';
 import './Home.css';
-// import profPic from '../../images/prof-pic.png';
 
 import { connect } from "react-redux";
 
@@ -11,11 +10,11 @@ const Home = ({ user, setName }) => {
             <Menu/>
             <div className='hook'>
                 <div className='inner-hook'>
-                    <div className='title white'>Hi, I'm
-                    <br/>
-                    Li Chien |
-                    <br/>
-                    Software Engineer</div>
+                    <div className='title white'>
+                        Hi, I'm Li Chien |
+                        <br/>
+                        <div className='underline'>Software Engineer</div>
+                    </div>
                     <Socials/>
                     <div className='description white'>
                         I love creating websites 🚀
