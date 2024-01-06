@@ -3,7 +3,7 @@
     background-color: rgb(18, 30, 39);
 }
 
-.hook {
+.home .hook {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@
     height: calc(100vh - 64px);
 }
 
-.inner-hook {
+.home .inner-hook {
     padding: 1.2rem 3rem;
     display: flex;
     flex-direction: column;
@@ -22,8 +22,28 @@
     max-width: 30rem;
 }
 
+@media screen and (min-width: 400px) {
+    .home .title .name {
+        display: inline;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .home .title {
         font-size: 64px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home .hook {
+        align-items: start;
+        justify-content: start;
+        padding: 150px;
+    }
+    .home .inner-hook {
+        margin-top: 5vh;
+    }
+    .home .title {
+        min-width: 1000px;
     }
 }

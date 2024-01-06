@@ -11,8 +11,8 @@ const Home = ({ user, setName }) => {
             <div className='hook'>
                 <div className='inner-hook'>
                     <div className='title white'>
-                        Hi, I'm Li Chien |
-                        <br/>
+                        Hi, I'm{' '}
+                        <div className='name'>Li Chien |</div>
                         <div className='underline'>Software Engineer</div>
                     </div>
                     <Socials/>

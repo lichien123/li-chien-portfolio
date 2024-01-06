@@ -75,3 +75,9 @@
         justify-content: flex-start;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .about {
+        padding: 20px 25vw;
+    }
+}

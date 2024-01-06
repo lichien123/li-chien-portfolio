@@ -4,7 +4,7 @@
   font-weight: 700;
 }
 
-.name {
+.nav .name {
   display: flex;
   justify-content: space-between;
   height: 2rem;
@@ -43,7 +43,7 @@
   .burger {
     display: none;
   }
-  .name {
+  .nav .name {
     justify-content: center;
   }
   .static-menu {
