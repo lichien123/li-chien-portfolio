@@ -1,5 +1,5 @@
-import Menu from '../../Menu';
-import Socials from '../../sidebars/Socials';
+import Nav from '../../components/Nav';
+import Socials from '../../components/Socials';
 import './Home.css';
 
 import { connect } from "react-redux";
@@ -7,7 +7,7 @@ import { connect } from "react-redux";
 const Home = ({ user, setName }) => {
     return (
         <div className='home'>
-            <Menu/>
+            <Nav/>
             <div className='hook'>
                 <div className='inner-hook'>
                     <div className='title white'>

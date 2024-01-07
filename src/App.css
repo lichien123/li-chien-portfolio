@@ -130,6 +130,10 @@ ul {
   color: #121E27;
 }
 
+.transparent {
+  opacity: 0;
+}
+
 .nowrap {
   text-wrap: nowrap;
 }

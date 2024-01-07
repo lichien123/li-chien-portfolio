@@ -27,16 +27,6 @@
     margin-bottom: 8px;
 }
 
-.footer .links {
-    display: flex;
-}
-
-.footer .link-item {
-    color: #FF715B;
-    margin-right: 16px;
-    font-weight: bold;
-}
-
 @media screen and (min-width: 768px) {
     .footer {
         display: flex;

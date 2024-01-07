@@ -1,5 +1,6 @@
 import './Footer.css'
-import Socials from '../../sidebars/Socials';
+import Socials from '../../components/Socials';
+import Menu from '../../components/Menu';
 
 const Footer = () => {
     return (
@@ -10,12 +11,7 @@ const Footer = () => {
           </div>
           <div className='section'>
             <div className='subtitle'>Links</div>
-            <div className='links'>
-                <div className='link-item'>Home</div>
-                <div className='link-item'>About</div>
-                <div className='link-item'>Projects</div>
-                <div className='link-item'>Contact</div>
-            </div>
+            <Menu menuClassName='footer-menu' />
           </div>
           <div className='section'>
             <div className='subtitle'>Get in touch</div>
