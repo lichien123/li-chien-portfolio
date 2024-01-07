@@ -3,7 +3,7 @@ import Socials from '../../components/Socials';
 import './Home.css';
 
 // import Monitor from '../../images/monitor.png'
-import ReactIcon from '../../images/react-icon.svg'
+// import ReactIcon from '../../images/react-icon.svg'
 
 import { connect } from "react-redux";
 
@@ -25,9 +25,9 @@ const Home = ({ user, setName }) => {
                         and electronic music brings me joy 😊
                     </div>
                 </div>
-                <div>
+                {/* <div>
                     <img src={ReactIcon} className='hook-image'/>
-                </div>
+                </div> */}
             </div>
         </div>
     );
