@@ -5,7 +5,7 @@ import BioPic from '../../images/li-photo.jpeg';
 const About = () => {
     return (
         <div className='about'>
-          <div className='title black underline'>My Skills</div>
+          <div className='title black underline' id='skills'>My Skills</div>
           <div className='section'>
             <img src={BioPic} className='bio-pic'/>
             <div className='writeup'>

@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div className="projects">
 
-            <div className='main-title title black underline'>Projects</div>
+            <div className='main-title title black underline' id='projects'>Projects</div>
             <div className='subtitle black'>Junior Frontend Developer/<br/>T. Rowe Price</div>
             <div className='project-title black'>New Account Setup</div>
             <ul className='tags'>

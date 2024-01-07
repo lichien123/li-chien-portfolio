@@ -1,7 +1,5 @@
 import './App.css';
 
-// import Socials from './sidebars/Socials.js';
-
 import Home from './sections/Home/Home.js';
 import About from './sections/About/About.js';
 import Projects from './sections/Projects/Projects.js';

@@ -2,10 +2,17 @@ import React, { useState } from 'react';
 
 import './Menu.css'
 
+const navigateTo = (id) => {
+  const el = document.getElementById(id);
+  console.log(el)
+  if (!el) return;
+  el.scrollIntoView({ behavior: 'smooth' });
+}
+
 const Menu = () => {
     const [menuDisplay, toggleMenuDisplay] = useState(false);
     return (
-      <div className='nav'>
+      <div className='nav' id='home'>
         <div className='name'>
           <p className='burger transparent'>|||</p>
           Li Chien
@@ -14,18 +21,18 @@ const Menu = () => {
         {
           menuDisplay && (
             <div className='menu'>
-              <div className='menu-item'>Home</div>
-              <div className='menu-item'>About</div>
-              <div className='menu-item'>Projects</div>
-              <div className='menu-item'>Contact</div>
+              <div className='menu-item' onClick={() => navigateTo('home')}>Home</div>
+              <div className='menu-item' onClick={() => navigateTo('skills')}>Skills</div>
+              <div className='menu-item' onClick={() => navigateTo('projects')}>Projects</div>
+              <div className='menu-item' onClick={() => navigateTo('contact')}>Contact</div>
             </div>
           )
         }
         <div className='static-menu'>
-          <div className='static-menu-item'>Home</div>
-          <div className='static-menu-item'>About</div>
-          <div className='static-menu-item'>Projects</div>
-          <div className='static-menu-item'>Contact</div>
+          <div className='static-menu-item' onClick={() => navigateTo('home')}>Home</div>
+          <div className='static-menu-item' onClick={() => navigateTo('skills')}>Skills</div>
+          <div className='static-menu-item' onClick={() => navigateTo('projects')}>Projects</div>
+          <div className='static-menu-item' onClick={() => navigateTo('contact')}>Contact</div>
         </div>
       </div>
     )
