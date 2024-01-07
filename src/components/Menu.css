@@ -1,34 +1,40 @@
 .mobile-menu {
-    margin-top: 1rem;
-    position: absolute;
-    right: 2rem;
-    text-align: right;
+  margin-top: 1rem;
+  position: absolute;
+  right: 2rem;
+  text-align: right;
 }
 
 .mobile-menu-item {
-    margin-top: .5rem;
-    margin-bottom: 1rem;
-    cursor: pointer;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #FF715B;
+  text-decoration-thickness: 3px;
 }
 
 .desktop-menu {
-    display: none;
-    justify-content: space-evenly;
+  display: none;
+  justify-content: space-evenly;
 }
 
 .desktop-menu-item {
-    cursor: pointer;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #FF715B;
+  text-decoration-thickness: 3px;
 }
 
 .footer .footer-menu {
-    display: flex;
+  display: flex;
 }
 
 .footer .footer-menu-item {
-    color: #FF715B;
-    margin-right: 16px;
-    font-weight: bold;
-    cursor: pointer;
+  color: #FF715B;
+  margin-right: 16px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
