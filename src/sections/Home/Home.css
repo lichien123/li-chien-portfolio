@@ -22,6 +22,12 @@
     max-width: 30rem;
 }
 
+.home .hook-image {
+    display: none;
+    /* height: 512px;
+    width: 512px; */
+}
+
 @media screen and (min-width: 400px) {
     .home .title .name {
         display: inline;
@@ -39,11 +45,21 @@
         align-items: start;
         justify-content: start;
         padding: 150px;
+        flex-direction: row;
     }
     .home .inner-hook {
         margin-top: 5vh;
     }
     .home .title {
         min-width: 1000px;
+    }
+}
+
+@media screen and (min-width: 1550px) {
+    .home .hook-image {
+        display: block;
+    }
+    .home .hook {
+        justify-content: space-between;
     }
 }

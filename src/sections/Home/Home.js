@@ -2,6 +2,9 @@ import Nav from '../../components/Nav';
 import Socials from '../../components/Socials';
 import './Home.css';
 
+// import Monitor from '../../images/monitor.png'
+import ReactIcon from '../../images/react-icon.svg'
+
 import { connect } from "react-redux";
 
 const Home = ({ user, setName }) => {
@@ -17,10 +20,13 @@ const Home = ({ user, setName }) => {
                     </div>
                     <Socials/>
                     <div className='description white'>
-                        I love creating websites 🚀
+                        I love coding with React ⚛️
                         I'm a lifelong learner 📖
-                        and making electronic music brings me joy 😊
+                        and electronic music brings me joy 😊
                     </div>
+                </div>
+                <div>
+                    <img src={ReactIcon} className='hook-image'/>
                 </div>
             </div>
         </div>
