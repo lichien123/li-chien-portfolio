@@ -31,3 +31,15 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+@media screen and (min-width: 1024px) {
+    .proj {
+        padding: 56px 15vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .proj {
+        padding: 56px 25vw;
+    }
+}
