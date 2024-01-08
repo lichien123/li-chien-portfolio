@@ -1,7 +1,8 @@
 import './Projects.css';
-import ShoppingCart from './ShoppingCart/ShoppingCart.js';
-import SearchFilters from './SearchFilters/SearchFilters.js';
-import ItemSummary from './ItemSummary/ItemSummary.js';
+
+const navigateToProject = (path) => {
+    return window.location.pathname = path;
+}
 
 const Projects = () => {
     return (
@@ -23,8 +24,8 @@ const Projects = () => {
                 <li>SASS</li>
                 <li>Responsive Web Design</li>
             </ul>
-            <div className='description'>I helped build and launch our three-year project, the New Account Setup Application, in its entirety.  On that team I helped increase unit test coverage by 60% as well as application finishes (our most important KPI) by 12%.</div>
-            <button>View Project</button>
+            <div className='description'>Helped build this project from development to launch. Created many reusable components and screens with an emphasis on modern design. Individually built some sections of the application and pair programmed others. By launch, our new, modern version of the application had seen an increase in "application finishes" of 12% as opposed to the legacy application.</div>
+            <button onClick={() => navigateToProject('/nasu')}>View Project</button>
 
             <div className='subtitle black'>Junior Frontend Developer/<br/>T. Rowe Price</div>
             <div className='project-title black'>Account Access</div>
@@ -39,29 +40,8 @@ const Projects = () => {
                 <li>Figma</li>
                 <li>Git</li>
             </ul>
-            <div className='description'> I honed my knowledge of best practices through debugging and enhancements, writing much cleaner and simpler code. Helped move the unit testing suite from Jest to React Testing Library. I also contributed to T. Rowe Price’s universal React component library and excelled at documentation and mentoring new hires.</div>
-            <button>View Project</button>
-            {/* <div className="title">Project #1</div>
-            <div className='subtitle'>New Account Setup (NASU)</div>
-            <div className='project'>
-                <div className='text-body'>
-                    <div className='paragraph'>NASU is the application at T. Rowe Price that helps customers open a new investing account.</div>
-                    <div className='paragraph'>My role was to "modernize" the investing experience, making the process of opening a new account less of a headache. The goal was to break down financial and legal information into an accessible multi-page form.</div>
-                    <div className='paragraph'>Here are some of the features I've worked on to help users digest information with ease.</div>
-                </div>
-                <ShoppingCart/>
-                <SearchFilters/>
-            </div>
-            <div className="title">Project #2</div>
-            <div className='subtitle'>Account Access (AA)</div>
-            <div className='project'>
-                <div className='text-body'>
-                    <div className='paragraph'>AA is the application a user sees when they log in to their T. Rowe Price account.</div>
-                    <div className='paragraph'>My role was to add new features and debug the existing site so users could understand the status of their accounts.</div>
-                    <div className='paragraph'>Here are some of the features I've worked on.</div>
-                </div>
-                <ItemSummary/>
-            </div> */}
+            <div className='description'>Maintained, debugged and enhanced the user dashboard. Enhancements focused on making the UI visually and functionally cleaner for those with minimal investment knowledge.</div>
+            <button onClick={() => navigateToProject('/account-access')}>View Project</button>
         </div>
     );
 };

@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
-import App from './App';
+import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import logger from "redux-logger";
 import { Provider } from "react-redux";
+import Footer from './sections/Footer/Footer';
+import NASU from './pages/NASU';
+import AA from './pages/AA';
+
 
 // const initialMathState = {
 //   result: 1,
@@ -103,11 +108,13 @@ store.dispatch({
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <App/>
-    </Provider>
-  </React.StrictMode>
+  <BrowserRouter>
+    <Routes>
+        <Route path='/' element={<App/>}/>
+        <Route path='/nasu' element={<NASU/>}/>
+        <Route path='/account-access' element={<AA/>}/>
+    </Routes>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

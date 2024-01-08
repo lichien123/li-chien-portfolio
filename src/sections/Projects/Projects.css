@@ -53,6 +53,7 @@ button {
     letter-spacing: 0.1rem;
     filter: drop-shadow(5px 5px 4px rgb(18, 30, 39));
     margin-bottom: 96px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 400px) {

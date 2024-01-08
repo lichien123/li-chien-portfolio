@@ -3,6 +3,9 @@ import React from 'react';
 import './Menu.css'
 
 const navigateTo = (id) => {
+  if (window.location.pathname !== '/') {
+    window.location.pathname = '/'
+  }
   const el = document.getElementById(id);
   if (!el) return;
   el.scrollIntoView({ behavior: 'smooth' });

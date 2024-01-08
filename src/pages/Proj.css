@@ -1,0 +1,33 @@
+.proj {
+    padding: 56px 3rem;
+}
+
+.proj .title {
+    margin-bottom: 28px;
+}
+
+.proj .description {
+    margin-bottom: 28px;
+}
+
+.proj .quick-stats {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28px;
+}
+
+.proj .stat-label {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.proj .stat-data {
+    margin-bottom: 16px;
+}
+
+.proj a {
+    color: #FF715B;
+    font-weight: bold;
+    cursor: pointer;
+}

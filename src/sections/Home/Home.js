@@ -5,9 +5,7 @@ import './Home.css';
 // import Monitor from '../../images/monitor.png'
 // import ReactIcon from '../../images/react-icon.svg'
 
-import { connect } from "react-redux";
-
-const Home = ({ user, setName }) => {
+const Home = () => {
     return (
         <div className='home'>
             <Nav/>
@@ -33,22 +31,4 @@ const Home = ({ user, setName }) => {
     );
 };
 
-const mapStateToProps = (state) => {
-    return {
-        user: state.user,
-        math: state.math
-    };
-};
-
-const mapDispatchToProps = (dispatch) => {
-    return {
-        setName: (name) => {
-            dispatch({
-                type: "SET_NAME",
-                payload: name
-            });
-        }
-    };
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default Home;
