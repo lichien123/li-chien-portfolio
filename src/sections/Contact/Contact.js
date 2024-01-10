@@ -1,5 +1,4 @@
 import './Contact.css'
-import Socials from '../../components/Socials';
 
 const Contact = () => {
     return (

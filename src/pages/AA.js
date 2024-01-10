@@ -21,7 +21,7 @@ const AA = () => {
                 </div>
                 <div className='stat'>
                     <div className='stat-label'>Live Site</div>
-                    <a href='https://www.troweprice.com/usis/my-accounts' target='_blank' className='stat-data'>Account Access</a>
+                    <a href='https://www.troweprice.com/usis/my-accounts' target='_blank' className='stat-data' rel="noreferrer">Account Access</a>
                     <div className='stat-data'>(Requires a T. Rowe Price account)</div>
                 </div>
             </div>

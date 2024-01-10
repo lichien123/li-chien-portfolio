@@ -21,7 +21,7 @@ const NASU = () => {
                 </div>
                 <div className='stat'>
                     <div className='stat-label'>Live Site</div>
-                    <a href='https://www.troweprice.com/personal-investing/tools/fund-research/account-finder' target='_blank' className='stat-data'>New Account Setup</a>
+                    <a href='https://www.troweprice.com/personal-investing/tools/fund-research/account-finder' target='_blank' className='stat-data' rel="noreferrer">New Account Setup</a>
                 </div>
             </div>
             <div className='title'>Project Purpose and Goal</div>
