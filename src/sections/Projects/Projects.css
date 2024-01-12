@@ -44,7 +44,6 @@
 .projects .screenshot {
     height: 270px;
     width: 337.5px;
-    /* border: 10px solid black; */
     border-radius: 10px;
     display: flex;
     justify-content: left;
@@ -72,5 +71,16 @@
         display: flex;
         align-items: center;
         margin-left: 56px;
+        cursor: pointer;
+    }
+    .projects .screenshot:hover {
+        position: relative;
+        top: 5px;
+        left: 5px;
+        filter: none;
+    }
+    .projects #nasu-image {
+        position: relative;
+        top: 2rem;
     }
 }

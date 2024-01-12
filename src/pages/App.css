@@ -90,6 +90,13 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  filter: none;
+}
+
 .icon {
   height: 56px;
   width: 56px;

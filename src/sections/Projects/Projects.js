@@ -31,7 +31,7 @@ const Projects = () => {
                     <div className='description'>Helped build this project from development to launch. Components were designed to consolidate investment jargon into digestible sections of information. Setting up an investment account is no longer a headache!</div>
                     <button onClick={() => navigateToProject('/nasu')}>View Project</button>
                 </div>
-                <div className='image-container'>
+                <div className='image-container' id='nasu-image'>
                     <img src={NASUChoosePath} alt='a screen in New Account Setup' className='screenshot' onClick={() => navigateToProject('/nasu')} />
                 </div>
             </div>
@@ -55,7 +55,7 @@ const Projects = () => {
                     <button onClick={() => navigateToProject('/account-access')}>View Project</button>
                 </div>
                 <div className='image-container'>
-                    <img src={AAChart} alt='a screen in New Account Setup' className='screenshot' onClick={() => navigateToProject('/account-access')} />
+                    <img src={AAChart} alt='a performance chart in Account Access' className='screenshot' onClick={() => navigateToProject('/account-access')} />
                 </div>
             </div>
         </div>
