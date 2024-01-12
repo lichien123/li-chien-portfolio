@@ -72,41 +72,22 @@ title {
 .description {
   font-size: 20px;
   text-align: left;
+  line-height: 1.75;
 }
 
-.center-column .center-content {
-  margin: 132px 128px 0 128px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: left;
-}
-
-.center-column .text-body {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-top: 100px;
-  font-size: 24px;
-  background: #6e07f3;
+button {
+  padding: 16px 40px;
+  background-color: #FF715B;
+  /* border: 2px solid #121E27; */
+  border: none;
   border-radius: 10px;
-  padding: 48px;
   color: white;
-}
-
-.center-column .text-body .paragraph {
-  margin-bottom: 48px;
-}
-
-.center-column .text-body .paragraph:last-child {
-  margin-bottom: 0;
-}
-
-.right-column {
-  position: sticky;
-  top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  filter: drop-shadow(5px 5px 4px rgb(18, 30, 39));
+  margin-bottom: 80px;
+  cursor: pointer;
 }
 
 .icon {
@@ -145,4 +126,34 @@ ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (min-width: 1200px) {
+    .content {
+        padding: 20px 10vw;
+    }
+}
+
+@media screen and (min-width: 1540px) {
+    .content {
+        padding: 20px 15vw;
+    }
+}
+
+@media screen and (min-width: 1540px) {
+    .content {
+        padding: 20px 18vw;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .content {
+        padding: 20px 22vw;
+    }
+}
+
+@media screen and (min-width: 2070px) {
+    .content {
+        padding: 20px 25vw;
+    }
 }

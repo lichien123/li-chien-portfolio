@@ -11,9 +11,11 @@ function App() {
   return (
     <div className="App">
       <Home/>
-      <About/>
-      <Projects/>
-      <Contact/>
+      <div className='content'>
+        <About/>
+        <Projects/>
+        <Contact/>
+      </div>
       <Footer/>
     </div>
   );

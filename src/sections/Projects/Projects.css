@@ -41,19 +41,21 @@
     margin-bottom: 28px;
 }
 
-button {
-    padding: 16px 40px;
-    background-color: #FF715B;
-    /* border: 2px solid #121E27; */
-    border: none;
+.projects .screenshot {
+    height: 270px;
+    width: 337.5px;
+    /* border: 10px solid black; */
     border-radius: 10px;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 28px;
     filter: drop-shadow(5px 5px 4px rgb(18, 30, 39));
-    margin-bottom: 96px;
-    cursor: pointer;
+}
+
+.projects .project {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
 }
 
 @media screen and (min-width: 400px) {
@@ -63,7 +65,12 @@ button {
 }
 
 @media screen and (min-width: 1024px) {
-    .projects {
-        padding: 20px 25vw;
+    .projects .project {
+        flex-direction: row;
+    }
+    .projects .image-container {
+        display: flex;
+        align-items: center;
+        margin-left: 56px;
     }
 }

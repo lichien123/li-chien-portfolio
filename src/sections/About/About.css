@@ -8,12 +8,10 @@
 }
 
 .about .bio-pic {
-    height: 80%;
-    width: 80%;
-    max-height: 348px;
-    max-width: 261px;
-    min-height: 262px;
-    min-width: 197px;
+    max-height: 375px;
+    max-width: 281px;
+    min-height: 328px;
+    min-width: 248px;
     border-radius: 20px;
     margin-bottom: 28px;
 
@@ -59,7 +57,7 @@
 
 .about .tags {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -75,11 +73,5 @@
     .about .tags {
         display: flex;
         justify-content: flex-start;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .about {
-        padding: 20px 25vw;
     }
 }
