@@ -9,3 +9,5 @@ Life is a learning process. I am continually updating my portfolio to keep up wi
 ## Hope you enjoy browsing the site!
 
 I don't want to give away too much, otherwise I'd be a writer, not a programmer. Go ahead and check it out!
+
+[www.lichienportfolio.com] (www.lichienportfolio.com)
