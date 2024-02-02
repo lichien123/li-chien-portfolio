@@ -26,8 +26,9 @@ const About = () => {
                 <li>SASS</li>
                 <li>Responsive Web Design</li>
               </ul>
-              <div className='subtitle'>I love building websites 📱</div>
-              <div className='description'>Ever since I was three, I've been using the web. I've gone from feeding Neopets to tweaking audio effect racks in Ableton Live, creating chat automation to enhance music publicity, and as of 2018, I've fallen in love with developing web applications. React is my weapon of choice, and I've spent five years honing my skills in React and using it to contribute to multiple successful projects.</div>
+              <div className='subtitle'>I love technology 📱</div>
+              <div className='description'>After a lifetime of schooling peers in Super Smash Bros, producing electronic music with 100k+ streams and developing enterprise applications for T. Rowe Price, I can say one thing for sure - I love solving the challenges that technology presents today. We are living in an era where anyone can create a revolutionary platform, and frankly, that's exciting! Anyone can go for their dreams and I truly believe that.</div>
+              {/* <a href='#projects' className='bio-link'>Click here to see what I'm working on right now!</a> */}
             </div>
           </div>
         </div>

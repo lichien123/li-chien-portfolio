@@ -9,7 +9,7 @@ const NASU = () => {
         <Nav/>
         <div className='proj'>
             <div className='title'>New Account Setup (NASU)</div>
-            <div className='description'>NASU is an application that allows new and existing customers to open up an investment account with T. Rowe Price.</div>
+            <div className='description'>NASU is an application that allows new and existing customers to open up an investment account with T. Rowe Price. Users enter their personal information, which T. Rowe Price funds they'd like to include in their portfolio and can even connect their bank account, all directly through this application.</div>
             <div className='quick-stats'>
                 <div className='stat'>
                     <div className='stat-label'>Type</div>
